@@ -1,9 +1,0 @@
-[
-  {
-    "correct_gmv": "950030.36",
-    "naive_gmv": "982295.30",
-    "safe_gmv": "950030.36",
-    "naive_error_pct": "3.40",
-    "safe_join_reconciles": true
-  }
-]

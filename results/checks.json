@@ -1,0 +1,170 @@
+[
+  {
+    "name": "file: olist_customers_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: customers",
+    "passed": true
+  },
+  {
+    "name": "file: olist_geolocation_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "file: olist_order_items_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: order_items",
+    "passed": true
+  },
+  {
+    "name": "file: olist_order_payments_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: order_payments",
+    "passed": true
+  },
+  {
+    "name": "file: olist_order_reviews_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: order_reviews",
+    "passed": true
+  },
+  {
+    "name": "file: olist_orders_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: orders",
+    "passed": true
+  },
+  {
+    "name": "file: olist_products_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: products",
+    "passed": true
+  },
+  {
+    "name": "file: olist_sellers_dataset.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: sellers",
+    "passed": true
+  },
+  {
+    "name": "file: product_category_name_translation.csv",
+    "passed": true
+  },
+  {
+    "name": "raw rows: product_category_name_translation",
+    "passed": true
+  },
+  {
+    "name": "analysis_window_is_20_months",
+    "passed": true
+  },
+  {
+    "name": "delivery_days_nonnegative",
+    "passed": true
+  },
+  {
+    "name": "freight_reconciles",
+    "passed": true
+  },
+  {
+    "name": "item_gmv_reconciles",
+    "passed": true
+  },
+  {
+    "name": "late_flag_requires_valid_delivered_order",
+    "passed": true
+  },
+  {
+    "name": "latest_review_covers_reviewed_orders",
+    "passed": true
+  },
+  {
+    "name": "latest_review_unique",
+    "passed": true
+  },
+  {
+    "name": "one_summary_row_per_order",
+    "passed": true
+  },
+  {
+    "name": "order_grain_preserved",
+    "passed": true
+  },
+  {
+    "name": "payment_total_reconciles",
+    "passed": true
+  },
+  {
+    "name": "raw_reviews_preserved",
+    "passed": true
+  },
+  {
+    "name": "seller_gmv_reconciles",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: customers",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: order_items",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: order_payments",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: order_reviews",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: orders",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: products",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: sellers",
+    "passed": true
+  },
+  {
+    "name": "cleaned rows: categories",
+    "passed": true
+  },
+  {
+    "name": "cohort starts at 100%",
+    "passed": true
+  },
+  {
+    "name": "cohort counts stay within group size",
+    "passed": true
+  },
+  {
+    "name": "joined totals match",
+    "passed": true
+  },
+  {
+    "name": "six foreign keys",
+    "passed": true
+  },
+  {
+    "name": "date filter results match",
+    "passed": true
+  }
+]

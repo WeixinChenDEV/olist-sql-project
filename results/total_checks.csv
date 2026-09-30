@@ -1,0 +1,13 @@
+check_name,passed
+analysis_window_is_20_months,true
+delivery_days_nonnegative,true
+freight_reconciles,true
+item_gmv_reconciles,true
+late_flag_requires_valid_delivered_order,true
+latest_review_covers_reviewed_orders,true
+latest_review_unique,true
+one_summary_row_per_order,true
+order_grain_preserved,true
+payment_total_reconciles,true
+raw_reviews_preserved,true
+seller_gmv_reconciles,true

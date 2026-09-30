@@ -1,10 +1,17 @@
 {
-  "name": "olist-sql-analytics",
+  "name": "olist-sql-project",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Reproducible PostgreSQL analysis of Olist orders and delivery outcomes",
-  "scripts": {"build": "node scripts/run.mjs", "query": "node scripts/query.mjs"},
-  "dependencies": {"@electric-sql/pglite": "0.5.8"},
-  "engines": {"node": ">=20"}
+  "description": "SQL analysis of Olist orders, deliveries, and customer reviews",
+  "scripts": {
+    "start": "node scripts/run.js",
+    "query": "node scripts/query.js"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }

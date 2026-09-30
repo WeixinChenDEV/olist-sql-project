@@ -1,112 +1,60 @@
-# Olist E-commerce Order & Delivery Analytics with SQL
+# Olist SQL Project
 
-A PostgreSQL portfolio project answering: **where should an e-commerce operations team investigate delivery problems, and can its metrics be trusted?**
+A small data analysis project using the public Olist e-commerce dataset. The main focus is SQL: joining tables, checking totals, using window functions, and comparing delivery performance.
 
-The project uses the public Brazilian E-Commerce dataset by Olist. It preserves source data, models relational keys, builds an order-level analytical mart, answers ten business questions, and verifies totals before presenting recommendations.
+The data contains 99,441 orders from 2016–2018. Most comparisons use January 2017 to August 2018 because the first and last months have very few orders.
 
-## Evidence at a glance
+## Questions
 
-- 99,441 orders; eight imported CSV tables, including 112,650 item rows and 103,886 payment rows.
-- All SQL executed on **PostgreSQL 18.3 via PGlite 0.5.8**, a local WASM PostgreSQL engine. Native PostgreSQL import scripts are supplied but have not been executed on a separate server.
-- 42 automated checks passed: file hashes, import counts, core counts, order grain, monetary reconciliation, review selection coverage, cohort bounds and query-result equivalence.
-- Delivered item GMV across the full source: **BRL 13,221,498.11**. This is merchandise value, not Olist company revenue or profit.
-- Main analysis window (January 2017–August 2018): low ratings occur in **62.42%** of reviewed late orders versus **9.25%** of reviewed on-time orders. This is an association, not a causal estimate.
-- In January 2018, a naive item/payment/review JOIN produces a **3.40%** GMV error; pre-aggregation exactly reconciles to item prices.
-- Query plans and three warm-run measurements per stage are saved in `results/query_optimization.json`.
+1. How did sales and order counts change each month?
+2. Which product categories had the highest sales?
+3. Which states had more late deliveries?
+4. How do review scores differ between late and on-time orders?
+5. How many customers bought more than once?
+6. Can joining several tables change the totals?
 
-## Run locally on Windows
-
-Node.js 20+ is required. On the first run, the bootstrap downloads and verifies the pinned dataset and local runtime. Subsequent builds can run offline with those files present.
-
-```powershell
-git clone https://github.com/WeixinChenDEV/olist-sql-analytics.git
-cd .\olist-sql-analytics
-.\run.ps1
-.\run.ps1 -Query -SqlFile 'sql/analysis/05_lateness_and_reviews.sql'
-.\run.ps1 -Serve
-```
-
-Open **http://127.0.0.1:8765** after the server starts. The SQL lab runs SELECT / WITH / EXPLAIN against the saved PostgreSQL snapshot in a read-only transaction. It displays up to 500 rows and uses a 10-second statement timeout. Ctrl+C stops the server.
-
-`run.ps1` locates Node in PATH or in the Codex bundled runtime. On a new computer, `scripts/bootstrap.ps1` downloads the pinned Olist archive and PGlite package, validates their hashes, and extracts only expected source files. A changed upstream dataset causes verification to fail rather than silently changing results.
-
-The offline report at `docs/index.html` also works without the server; SQL execution requires the server. After rebuilding:
-
-```bash
-node scripts/generate-report.mjs
-```
-
-Seven additional integration checks passed against the actual SQL lab: saved-data access, single-statement enforcement, read-only CTE protection, rollback/session recovery, session token, row cap and indexed-query equivalence. To rerun with the server running, use `node scripts/test_lab.mjs`. Evidence: `results/lab_validation.json`.
-
-Alternatively, install the exact npm dependency with `npm ci`, then use `npm run build`, `npm run query -- sql/analysis/02_monthly_growth.sql` and `node scripts/serve.mjs`.
-
-## Standard PostgreSQL / DBeaver
-
-Create a **new empty database** named `olist`. From the project root, run:
-
-```bash
-psql -d olist -f sql/load_postgres.psql
-psql -d olist -f sql/analysis/05_lateness_and_reviews.sql
-```
-
-The import uses client-side `\copy`, an atomic transaction and `ON_ERROR_STOP`. DBeaver can connect to that native PostgreSQL database and execute the ordinary `.sql` files. The lightweight PGlite snapshot is not a listening PostgreSQL service and cannot be connected to directly by DBeaver.
-
-No existing schema is dropped. The import intentionally fails if its tables already exist. For native PostgreSQL, use UTF-8 and PostgreSQL 15+; native-server execution remains unverified in this workspace.
-
-## Local SQL lab preview
-
-The screenshot shows an actual query against the saved PostgreSQL database, comparing a naive multi-table join with reconciled order-grain totals.
-
-![SQL lab with a verified join-fanout analysis](docs/sql-lab-preview.jpg)
-
-## SQL questions
-
-| File | Question | Skills demonstrated |
-|---|---|---|
-| `01_executive_kpis.sql` | What does the source contain, and what are the headline metrics? | FILTER, NULLIF, distinct counts, median |
-| `02_monthly_growth.sql` | How do delivered GMV, order counts and lateness change by purchase month? | CTE, LAG, date bucketing |
-| `03_category_ranking.sql` | Which categories contribute the most delivered GMV? | Multi-table JOIN, DENSE_RANK, share of total |
-| `04_delivery_by_state.sql` | Which customer states have high lateness and long delivery tails? | HAVING, PERCENTILE_CONT, explicit denominators |
-| `05_lateness_and_reviews.sql` | How do reviews differ between late and on-time orders? | CASE, conditional aggregation, null handling |
-| `06_seller_watchlist.sql` | Which sufficiently large single-seller samples have the most late orders? | Grain control, thresholds, DENSE_RANK |
-| `07_repeat_purchase.sql` | How many observed customers purchased more than once? | Customer-level aggregation, identity selection |
-| `08_purchase_cohorts.sql` | What percentage purchased again in each observable subsequent month? | GENERATE_SERIES, interval arithmetic, zero-fill grid |
-| `09_payment_reconciliation.sql` | Do recorded payments match item value plus freight? | Reconciliation, tolerance bands, status segmentation |
-| `10_join_fanout_demo.sql` | What happens when several one-to-many tables are joined directly? | Fanout diagnosis, safe pre-aggregation |
-
-## Structure
+## Files
 
 ```text
-data/manifest.json        source hashes, headers, row counts, import scope
-data/raw/                original CSVs and downloaded archive (ignored by Git)
-data/local-db.tar.gz      saved local PostgreSQL snapshot (ignored by Git)
-sql/01_raw.sql           text staging tables
-sql/02_model.sql         typed relational model and analytical marts
-sql/03_quality_audit.sql  source anomalies and missing data
-sql/04_validate.sql      SQL invariants
-sql/05_indexes.sql       measured index and supporting indexes
-sql/load_postgres.psql   native PostgreSQL import
-sql/analysis/            ten runnable business queries
-scripts/                 IO, orchestration, local server and report generation
-results/                 committed CSV/JSON query results and evidence
-docs/                    report, dictionary, model, learning and interview notes
+sql/          table setup, cleaning, checks, and analysis queries
+results/      CSV results and query plans
+notes/        data notes and a short summary of the findings
+scripts/      helpers for running SQL locally
+data/         source file list; downloaded CSV files are not uploaded
 ```
 
-## Decisions that protect correctness
+The queries are numbered from `01_overview.sql` to `10_joins.sql`. The file names in `results/` match the SQL files.
 
-1. Aggregate items and payments separately to order grain before joining. Pick one latest review with `ROW_NUMBER`; do not pretend `review_id` is unique.
-2. Use `customer_unique_id` for customer analysis. `customer_id` identifies an order-linked customer record.
-3. Treat BRL amounts as exact PostgreSQL NUMERIC. Keep item GMV, freight and payments separate.
-4. Evaluate lateness only for delivered orders with valid delivery/estimate dates. Compare calendar dates, because estimates are date values at midnight.
-5. Use the January 2017–August 2018 window for most business comparisons. It excludes sparse boundary months; it does not prove that the dataset contains every order in the business.
-6. Keep source anomalies visible. Exclude them only from metrics that require a valid value, with explicit denominators.
+## A few results
 
-Read `docs/methodology.md`, `docs/business_report.md` and `docs/学习与面试说明.md` for details.
+- Late orders had a low review score (1 or 2) in 62.42% of reviewed cases, compared with 9.25% for on-time orders. This is a relationship in the data, not proof of causation.
+- Rio de Janeiro had 1,495 late orders and a late rate of 12.14% in the selected period. Both the percentage and the number of affected orders matter.
+- In January 2018, directly joining items, payments, and reviews overstated item sales by 3.40%. Summing each table by order first gave the correct total.
 
-## Attribution and scope
+More detail is in [notes/findings.md](notes/findings.md). Sales here means item value excluding freight, not the company's revenue or profit.
 
-Data: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), Olist, historical orders from 2016–2018. See `DATA_LICENSE.md` before reuse. The geolocation CSV is preserved and hashed, but excluded from the analytical database because this project uses state-level geography.
+## Run it
 
-Runtime: [PGlite](https://pglite.dev/docs/about), Apache-2.0. Dependencies remain under their original licenses. Raw data, dependency archives and database dumps are excluded from the publication bundle.
+Use Node.js 20+ and PowerShell on Windows:
 
-This is an independent public-data portfolio study. No analysis was deployed at Olist, and no business uplift is claimed. Resume wording is provided as a draft to use after understanding and being able to explain the work.
+```powershell
+git clone https://github.com/WeixinChenDEV/olist-sql-project.git
+cd olist-sql-project
+.\run.ps1
+.\run.ps1 -SqlFile sql/02_monthly_sales.sql
+```
+
+The first run downloads the data and a small PostgreSQL runtime called [PGlite](https://pglite.dev/). The analysis itself is written in SQL; JavaScript loads the files and saves the results. With the downloaded files present, it can run offline.
+
+If you already have PostgreSQL, create a new empty database and run from the project folder:
+
+```bash
+psql -d olist -f sql/import.psql
+psql -d olist -f sql/05_reviews.sql
+```
+
+The SQL was tested using PostgreSQL 18.3 through PGlite. The separate PostgreSQL-server import has not been tested here. Data details and calculation choices are in [notes/data.md](notes/data.md).
+
+## Data source
+
+[Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), available on Kaggle under CC BY-NC-SA 4.0. Source attribution and reuse details are in [DATA_LICENSE.md](DATA_LICENSE.md).
