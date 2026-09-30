@@ -1,0 +1,16 @@
+issue,affected_rows
+approval_before_purchase,0
+carrier_before_purchase,166
+delivered_missing_delivery_timestamp,8
+delivery_before_purchase,0
+orders_with_multiple_items,9803
+orders_with_multiple_payments,2961
+orders_with_multiple_reviews,547
+orders_with_multiple_sellers,1278
+orders_without_items,775
+orders_without_payments,1
+orders_without_reviews,768
+payment_vs_item_plus_freight_difference_gt_1_brl,249
+products_without_category,610
+products_without_translation,13
+reused_review_ids,789

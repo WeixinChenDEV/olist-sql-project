@@ -1,0 +1,20 @@
+[
+  {
+    "delivery_group": "late",
+    "eligible_delivered_orders": 6531,
+    "reviewed_orders": 6378,
+    "review_coverage_pct": "97.66",
+    "avg_review_score": "2.27",
+    "low_score_orders": 3981,
+    "low_score_pct": "62.42"
+  },
+  {
+    "delivery_group": "on_time",
+    "eligible_delivered_orders": 89672,
+    "reviewed_orders": 89182,
+    "review_coverage_pct": "99.45",
+    "avg_review_score": "4.29",
+    "low_score_orders": 8247,
+    "low_score_pct": "9.25"
+  }
+]

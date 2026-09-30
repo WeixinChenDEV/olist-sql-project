@@ -1,0 +1,742 @@
+[
+  {
+    "category": "health_beauty",
+    "item_rows": 9422,
+    "orders": 8610,
+    "delivered_gmv_brl": "1229557.50",
+    "freight_brl": "178202.28",
+    "gmv_rank": 1,
+    "gmv_share_pct": "9.33",
+    "freight_to_gmv_pct": "14.49"
+  },
+  {
+    "category": "watches_gifts",
+    "item_rows": 5855,
+    "orders": 5491,
+    "delivered_gmv_brl": "1163465.91",
+    "freight_brl": "98073.50",
+    "gmv_rank": 2,
+    "gmv_share_pct": "8.83",
+    "freight_to_gmv_pct": "8.43"
+  },
+  {
+    "category": "bed_bath_table",
+    "item_rows": 10945,
+    "orders": 9267,
+    "delivered_gmv_brl": "1022955.77",
+    "freight_brl": "201646.91",
+    "gmv_rank": 3,
+    "gmv_share_pct": "7.76",
+    "freight_to_gmv_pct": "19.71"
+  },
+  {
+    "category": "sports_leisure",
+    "item_rows": 8414,
+    "orders": 7513,
+    "delivered_gmv_brl": "952840.40",
+    "freight_brl": "162925.75",
+    "gmv_rank": 4,
+    "gmv_share_pct": "7.23",
+    "freight_to_gmv_pct": "17.10"
+  },
+  {
+    "category": "computers_accessories",
+    "item_rows": 7632,
+    "orders": 6518,
+    "delivered_gmv_brl": "888055.59",
+    "freight_brl": "143806.34",
+    "gmv_rank": 5,
+    "gmv_share_pct": "6.74",
+    "freight_to_gmv_pct": "16.19"
+  },
+  {
+    "category": "furniture_decor",
+    "item_rows": 8095,
+    "orders": 6258,
+    "delivered_gmv_brl": "706237.17",
+    "freight_brl": "167193.40",
+    "gmv_rank": 6,
+    "gmv_share_pct": "5.36",
+    "freight_to_gmv_pct": "23.67"
+  },
+  {
+    "category": "housewares",
+    "item_rows": 6783,
+    "orders": 5734,
+    "delivered_gmv_brl": "614341.62",
+    "freight_brl": "142508.09",
+    "gmv_rank": 7,
+    "gmv_share_pct": "4.66",
+    "freight_to_gmv_pct": "23.20"
+  },
+  {
+    "category": "cool_stuff",
+    "item_rows": 3711,
+    "orders": 3552,
+    "delivered_gmv_brl": "609158.00",
+    "freight_brl": "81286.01",
+    "gmv_rank": 8,
+    "gmv_share_pct": "4.62",
+    "freight_to_gmv_pct": "13.34"
+  },
+  {
+    "category": "auto",
+    "item_rows": 4132,
+    "orders": 3802,
+    "delivered_gmv_brl": "577838.39",
+    "freight_brl": "90265.09",
+    "gmv_rank": 9,
+    "gmv_share_pct": "4.38",
+    "freight_to_gmv_pct": "15.62"
+  },
+  {
+    "category": "garden_tools",
+    "item_rows": 4263,
+    "orders": 3443,
+    "delivered_gmv_brl": "469135.40",
+    "freight_brl": "96545.09",
+    "gmv_rank": 10,
+    "gmv_share_pct": "3.56",
+    "freight_to_gmv_pct": "20.58"
+  },
+  {
+    "category": "toys",
+    "item_rows": 4006,
+    "orders": 3782,
+    "delivered_gmv_brl": "467179.98",
+    "freight_brl": "75289.55",
+    "gmv_rank": 11,
+    "gmv_share_pct": "3.54",
+    "freight_to_gmv_pct": "16.12"
+  },
+  {
+    "category": "baby",
+    "item_rows": 2971,
+    "orders": 2800,
+    "delivered_gmv_brl": "399050.67",
+    "freight_brl": "66159.43",
+    "gmv_rank": 12,
+    "gmv_share_pct": "3.03",
+    "freight_to_gmv_pct": "16.58"
+  },
+  {
+    "category": "perfumery",
+    "item_rows": 3311,
+    "orders": 3060,
+    "delivered_gmv_brl": "385315.55",
+    "freight_brl": "52540.88",
+    "gmv_rank": 13,
+    "gmv_share_pct": "2.92",
+    "freight_to_gmv_pct": "13.64"
+  },
+  {
+    "category": "telephony",
+    "item_rows": 4422,
+    "orders": 4086,
+    "delivered_gmv_brl": "309631.94",
+    "freight_brl": "69236.43",
+    "gmv_rank": 14,
+    "gmv_share_pct": "2.35",
+    "freight_to_gmv_pct": "22.36"
+  },
+  {
+    "category": "office_furniture",
+    "item_rows": 1662,
+    "orders": 1248,
+    "delivered_gmv_brl": "266853.43",
+    "freight_brl": "66770.38",
+    "gmv_rank": 15,
+    "gmv_share_pct": "2.02",
+    "freight_to_gmv_pct": "25.02"
+  },
+  {
+    "category": "stationery",
+    "item_rows": 2466,
+    "orders": 2264,
+    "delivered_gmv_brl": "223788.69",
+    "freight_brl": "45786.36",
+    "gmv_rank": 16,
+    "gmv_share_pct": "1.70",
+    "freight_to_gmv_pct": "20.46"
+  },
+  {
+    "category": "computers",
+    "item_rows": 199,
+    "orders": 177,
+    "delivered_gmv_brl": "218684.14",
+    "freight_brl": "9665.62",
+    "gmv_rank": 17,
+    "gmv_share_pct": "1.66",
+    "freight_to_gmv_pct": "4.42"
+  },
+  {
+    "category": "pet_shop",
+    "item_rows": 1920,
+    "orders": 1684,
+    "delivered_gmv_brl": "211005.96",
+    "freight_brl": "38832.38",
+    "gmv_rank": 18,
+    "gmv_share_pct": "1.60",
+    "freight_to_gmv_pct": "18.40"
+  },
+  {
+    "category": "musical_instruments",
+    "item_rows": 651,
+    "orders": 611,
+    "delivered_gmv_brl": "184315.74",
+    "freight_brl": "17871.38",
+    "gmv_rank": 19,
+    "gmv_share_pct": "1.40",
+    "freight_to_gmv_pct": "9.70"
+  },
+  {
+    "category": "small_appliances",
+    "item_rows": 658,
+    "orders": 609,
+    "delivered_gmv_brl": "182754.12",
+    "freight_brl": "15354.35",
+    "gmv_rank": 20,
+    "gmv_share_pct": "1.39",
+    "freight_to_gmv_pct": "8.40"
+  },
+  {
+    "category": "unknown",
+    "item_rows": 1535,
+    "orders": 1390,
+    "delivered_gmv_brl": "170660.74",
+    "freight_brl": "26939.03",
+    "gmv_rank": 21,
+    "gmv_share_pct": "1.29",
+    "freight_to_gmv_pct": "15.79"
+  },
+  {
+    "category": "electronics",
+    "item_rows": 2728,
+    "orders": 2516,
+    "delivered_gmv_brl": "154935.94",
+    "freight_brl": "45667.36",
+    "gmv_rank": 22,
+    "gmv_share_pct": "1.18",
+    "freight_to_gmv_pct": "29.47"
+  },
+  {
+    "category": "fashion_bags_accessories",
+    "item_rows": 1976,
+    "orders": 1812,
+    "delivered_gmv_brl": "148945.19",
+    "freight_brl": "30420.50",
+    "gmv_rank": 23,
+    "gmv_share_pct": "1.13",
+    "freight_to_gmv_pct": "20.42"
+  },
+  {
+    "category": "consoles_games",
+    "item_rows": 1082,
+    "orders": 1011,
+    "delivered_gmv_brl": "144384.01",
+    "freight_brl": "18928.36",
+    "gmv_rank": 24,
+    "gmv_share_pct": "1.10",
+    "freight_to_gmv_pct": "13.11"
+  },
+  {
+    "category": "construction_tools_construction",
+    "item_rows": 916,
+    "orders": 736,
+    "delivered_gmv_brl": "142108.49",
+    "freight_brl": "20273.52",
+    "gmv_rank": 25,
+    "gmv_share_pct": "1.08",
+    "freight_to_gmv_pct": "14.27"
+  },
+  {
+    "category": "luggage_accessories",
+    "item_rows": 1077,
+    "orders": 1019,
+    "delivered_gmv_brl": "138701.63",
+    "freight_brl": "30076.49",
+    "gmv_rank": 26,
+    "gmv_share_pct": "1.05",
+    "freight_to_gmv_pct": "21.68"
+  },
+  {
+    "category": "home_appliances_2",
+    "item_rows": 231,
+    "orders": 227,
+    "delivered_gmv_brl": "107953.95",
+    "freight_brl": "10254.57",
+    "gmv_rank": 27,
+    "gmv_share_pct": "0.82",
+    "freight_to_gmv_pct": "9.50"
+  },
+  {
+    "category": "home_construction",
+    "item_rows": 596,
+    "orders": 483,
+    "delivered_gmv_brl": "81407.57",
+    "freight_brl": "13614.80",
+    "gmv_rank": 28,
+    "gmv_share_pct": "0.62",
+    "freight_to_gmv_pct": "16.72"
+  },
+  {
+    "category": "home_appliances",
+    "item_rows": 754,
+    "orders": 747,
+    "delivered_gmv_brl": "78832.48",
+    "freight_brl": "14469.30",
+    "gmv_rank": 29,
+    "gmv_share_pct": "0.60",
+    "freight_to_gmv_pct": "18.35"
+  },
+  {
+    "category": "agro_industry_and_commerce",
+    "item_rows": 206,
+    "orders": 177,
+    "delivered_gmv_brl": "70566.10",
+    "freight_brl": "5637.20",
+    "gmv_rank": 30,
+    "gmv_share_pct": "0.54",
+    "freight_to_gmv_pct": "7.99"
+  },
+  {
+    "category": "furniture_living_room",
+    "item_rows": 495,
+    "orders": 414,
+    "delivered_gmv_brl": "67350.70",
+    "freight_brl": "17694.37",
+    "gmv_rank": 31,
+    "gmv_share_pct": "0.51",
+    "freight_to_gmv_pct": "26.27"
+  },
+  {
+    "category": "home_confort",
+    "item_rows": 429,
+    "orders": 392,
+    "delivered_gmv_brl": "58008.45",
+    "freight_brl": "8429.77",
+    "gmv_rank": 32,
+    "gmv_share_pct": "0.44",
+    "freight_to_gmv_pct": "14.53"
+  },
+  {
+    "category": "fixed_telephony",
+    "item_rows": 250,
+    "orders": 207,
+    "delivered_gmv_brl": "54610.33",
+    "freight_brl": "4431.76",
+    "gmv_rank": 33,
+    "gmv_share_pct": "0.41",
+    "freight_to_gmv_pct": "8.12"
+  },
+  {
+    "category": "air_conditioning",
+    "item_rows": 281,
+    "orders": 242,
+    "delivered_gmv_brl": "51974.27",
+    "freight_brl": "6376.67",
+    "gmv_rank": 34,
+    "gmv_share_pct": "0.39",
+    "freight_to_gmv_pct": "12.27"
+  },
+  {
+    "category": "audio",
+    "item_rows": 360,
+    "orders": 346,
+    "delivered_gmv_brl": "50413.61",
+    "freight_brl": "5658.68",
+    "gmv_rank": 35,
+    "gmv_share_pct": "0.38",
+    "freight_to_gmv_pct": "11.22"
+  },
+  {
+    "category": "small_appliances_home_oven_and_coffee",
+    "item_rows": 73,
+    "orders": 72,
+    "delivered_gmv_brl": "46589.56",
+    "freight_brl": "2656.34",
+    "gmv_rank": 36,
+    "gmv_share_pct": "0.35",
+    "freight_to_gmv_pct": "5.70"
+  },
+  {
+    "category": "kitchen_dining_laundry_garden_furniture",
+    "item_rows": 274,
+    "orders": 241,
+    "delivered_gmv_brl": "45531.98",
+    "freight_brl": "11540.99",
+    "gmv_rank": 37,
+    "gmv_share_pct": "0.35",
+    "freight_to_gmv_pct": "25.35"
+  },
+  {
+    "category": "books_general_interest",
+    "item_rows": 537,
+    "orders": 496,
+    "delivered_gmv_brl": "45302.15",
+    "freight_brl": "8880.39",
+    "gmv_rank": 38,
+    "gmv_share_pct": "0.34",
+    "freight_to_gmv_pct": "19.60"
+  },
+  {
+    "category": "construction_tools_lights",
+    "item_rows": 301,
+    "orders": 242,
+    "delivered_gmv_brl": "39957.00",
+    "freight_brl": "7490.14",
+    "gmv_rank": 39,
+    "gmv_share_pct": "0.30",
+    "freight_to_gmv_pct": "18.75"
+  },
+  {
+    "category": "construction_tools_safety",
+    "item_rows": 183,
+    "orders": 159,
+    "delivered_gmv_brl": "38773.22",
+    "freight_brl": "3730.80",
+    "gmv_rank": 40,
+    "gmv_share_pct": "0.29",
+    "freight_to_gmv_pct": "9.62"
+  },
+  {
+    "category": "industry_commerce_and_business",
+    "item_rows": 261,
+    "orders": 229,
+    "delivered_gmv_brl": "38139.21",
+    "freight_brl": "7506.57",
+    "gmv_rank": 41,
+    "gmv_share_pct": "0.29",
+    "freight_to_gmv_pct": "19.68"
+  },
+  {
+    "category": "food",
+    "item_rows": 498,
+    "orders": 440,
+    "delivered_gmv_brl": "28651.25",
+    "freight_brl": "7047.20",
+    "gmv_rank": 42,
+    "gmv_share_pct": "0.22",
+    "freight_to_gmv_pct": "24.60"
+  },
+  {
+    "category": "market_place",
+    "item_rows": 294,
+    "orders": 269,
+    "delivered_gmv_brl": "26880.48",
+    "freight_brl": "5091.95",
+    "gmv_rank": 43,
+    "gmv_share_pct": "0.20",
+    "freight_to_gmv_pct": "18.94"
+  },
+  {
+    "category": "costruction_tools_garden",
+    "item_rows": 232,
+    "orders": 190,
+    "delivered_gmv_brl": "25096.28",
+    "freight_brl": "5187.66",
+    "gmv_rank": 44,
+    "gmv_share_pct": "0.19",
+    "freight_to_gmv_pct": "20.67"
+  },
+  {
+    "category": "art",
+    "item_rows": 197,
+    "orders": 195,
+    "delivered_gmv_brl": "23657.30",
+    "freight_brl": "3828.23",
+    "gmv_rank": 45,
+    "gmv_share_pct": "0.18",
+    "freight_to_gmv_pct": "16.18"
+  },
+  {
+    "category": "fashion_shoes",
+    "item_rows": 256,
+    "orders": 234,
+    "delivered_gmv_brl": "22971.47",
+    "freight_brl": "4802.41",
+    "gmv_rank": 46,
+    "gmv_share_pct": "0.17",
+    "freight_to_gmv_pct": "20.91"
+  },
+  {
+    "category": "drinks",
+    "item_rows": 361,
+    "orders": 287,
+    "delivered_gmv_brl": "21529.84",
+    "freight_brl": "5441.27",
+    "gmv_rank": 47,
+    "gmv_share_pct": "0.16",
+    "freight_to_gmv_pct": "25.27"
+  },
+  {
+    "category": "signaling_and_security",
+    "item_rows": 197,
+    "orders": 138,
+    "delivered_gmv_brl": "21315.05",
+    "freight_brl": "6477.54",
+    "gmv_rank": 48,
+    "gmv_share_pct": "0.16",
+    "freight_to_gmv_pct": "30.39"
+  },
+  {
+    "category": "furniture_bedroom",
+    "item_rows": 103,
+    "orders": 90,
+    "delivered_gmv_brl": "19051.80",
+    "freight_brl": "4327.42",
+    "gmv_rank": 49,
+    "gmv_share_pct": "0.14",
+    "freight_to_gmv_pct": "22.71"
+  },
+  {
+    "category": "books_technical",
+    "item_rows": 263,
+    "orders": 256,
+    "delivered_gmv_brl": "18702.23",
+    "freight_brl": "4198.84",
+    "gmv_rank": 50,
+    "gmv_share_pct": "0.14",
+    "freight_to_gmv_pct": "22.45"
+  },
+  {
+    "category": "costruction_tools_tools",
+    "item_rows": 103,
+    "orders": 97,
+    "delivered_gmv_brl": "15903.95",
+    "freight_brl": "2030.22",
+    "gmv_rank": 51,
+    "gmv_share_pct": "0.12",
+    "freight_to_gmv_pct": "12.77"
+  },
+  {
+    "category": "food_drink",
+    "item_rows": 269,
+    "orders": 221,
+    "delivered_gmv_brl": "14942.88",
+    "freight_brl": "4394.89",
+    "gmv_rank": 52,
+    "gmv_share_pct": "0.11",
+    "freight_to_gmv_pct": "29.41"
+  },
+  {
+    "category": "fashion_male_clothing",
+    "item_rows": 124,
+    "orders": 105,
+    "delivered_gmv_brl": "10427.43",
+    "freight_brl": "2051.66",
+    "gmv_rank": 53,
+    "gmv_share_pct": "0.08",
+    "freight_to_gmv_pct": "19.68"
+  },
+  {
+    "category": "fashion_underwear_beach",
+    "item_rows": 127,
+    "orders": 117,
+    "delivered_gmv_brl": "9305.95",
+    "freight_brl": "1854.07",
+    "gmv_rank": 54,
+    "gmv_share_pct": "0.07",
+    "freight_to_gmv_pct": "19.92"
+  },
+  {
+    "category": "christmas_supplies",
+    "item_rows": 150,
+    "orders": 125,
+    "delivered_gmv_brl": "8737.84",
+    "freight_brl": "3190.91",
+    "gmv_rank": 55,
+    "gmv_share_pct": "0.07",
+    "freight_to_gmv_pct": "36.52"
+  },
+  {
+    "category": "tablets_printing_image",
+    "item_rows": 83,
+    "orders": 79,
+    "delivered_gmv_brl": "7528.41",
+    "freight_brl": "1226.20",
+    "gmv_rank": 56,
+    "gmv_share_pct": "0.06",
+    "freight_to_gmv_pct": "16.29"
+  },
+  {
+    "category": "cine_photo",
+    "item_rows": 70,
+    "orders": 63,
+    "delivered_gmv_brl": "6674.47",
+    "freight_brl": "1227.71",
+    "gmv_rank": 57,
+    "gmv_share_pct": "0.05",
+    "freight_to_gmv_pct": "18.39"
+  },
+  {
+    "category": "music",
+    "item_rows": 38,
+    "orders": 38,
+    "delivered_gmv_brl": "6034.35",
+    "freight_brl": "690.51",
+    "gmv_rank": 58,
+    "gmv_share_pct": "0.05",
+    "freight_to_gmv_pct": "11.44"
+  },
+  {
+    "category": "dvds_blu_ray",
+    "item_rows": 61,
+    "orders": 56,
+    "delivered_gmv_brl": "4542.59",
+    "freight_brl": "1227.25",
+    "gmv_rank": 59,
+    "gmv_share_pct": "0.03",
+    "freight_to_gmv_pct": "27.02"
+  },
+  {
+    "category": "party_supplies",
+    "item_rows": 42,
+    "orders": 38,
+    "delivered_gmv_brl": "4465.19",
+    "freight_brl": "820.19",
+    "gmv_rank": 60,
+    "gmv_share_pct": "0.03",
+    "freight_to_gmv_pct": "18.37"
+  },
+  {
+    "category": "books_imported",
+    "item_rows": 57,
+    "orders": 50,
+    "delivered_gmv_brl": "4418.86",
+    "freight_brl": "732.08",
+    "gmv_rank": 61,
+    "gmv_share_pct": "0.03",
+    "freight_to_gmv_pct": "16.57"
+  },
+  {
+    "category": "furniture_mattress_and_upholstery",
+    "item_rows": 37,
+    "orders": 37,
+    "delivered_gmv_brl": "4323.38",
+    "freight_brl": "1581.37",
+    "gmv_rank": 62,
+    "gmv_share_pct": "0.03",
+    "freight_to_gmv_pct": "36.58"
+  },
+  {
+    "category": "portateis_cozinha_e_preparadores_de_alimentos",
+    "item_rows": 14,
+    "orders": 13,
+    "delivered_gmv_brl": "3933.63",
+    "freight_brl": "294.42",
+    "gmv_rank": 63,
+    "gmv_share_pct": "0.03",
+    "freight_to_gmv_pct": "7.48"
+  },
+  {
+    "category": "fashio_female_clothing",
+    "item_rows": 44,
+    "orders": 35,
+    "delivered_gmv_brl": "2580.04",
+    "freight_brl": "568.77",
+    "gmv_rank": 64,
+    "gmv_share_pct": "0.02",
+    "freight_to_gmv_pct": "22.05"
+  },
+  {
+    "category": "fashion_sport",
+    "item_rows": 29,
+    "orders": 26,
+    "delivered_gmv_brl": "2094.52",
+    "freight_brl": "563.03",
+    "gmv_rank": 65,
+    "gmv_share_pct": "0.02",
+    "freight_to_gmv_pct": "26.88"
+  },
+  {
+    "category": "la_cuisine",
+    "item_rows": 14,
+    "orders": 13,
+    "delivered_gmv_brl": "2054.99",
+    "freight_brl": "333.55",
+    "gmv_rank": 66,
+    "gmv_share_pct": "0.02",
+    "freight_to_gmv_pct": "16.23"
+  },
+  {
+    "category": "arts_and_craftmanship",
+    "item_rows": 24,
+    "orders": 23,
+    "delivered_gmv_brl": "1814.01",
+    "freight_brl": "370.13",
+    "gmv_rank": 67,
+    "gmv_share_pct": "0.01",
+    "freight_to_gmv_pct": "20.40"
+  },
+  {
+    "category": "diapers_and_hygiene",
+    "item_rows": 36,
+    "orders": 24,
+    "delivered_gmv_brl": "1365.89",
+    "freight_brl": "529.31",
+    "gmv_rank": 68,
+    "gmv_share_pct": "0.01",
+    "freight_to_gmv_pct": "38.75"
+  },
+  {
+    "category": "pc_gamer",
+    "item_rows": 8,
+    "orders": 7,
+    "delivered_gmv_brl": "1306.95",
+    "freight_brl": "123.15",
+    "gmv_rank": 69,
+    "gmv_share_pct": "0.01",
+    "freight_to_gmv_pct": "9.42"
+  },
+  {
+    "category": "flowers",
+    "item_rows": 33,
+    "orders": 29,
+    "delivered_gmv_brl": "1110.04",
+    "freight_brl": "488.87",
+    "gmv_rank": 70,
+    "gmv_share_pct": "0.01",
+    "freight_to_gmv_pct": "44.04"
+  },
+  {
+    "category": "home_comfort_2",
+    "item_rows": 30,
+    "orders": 24,
+    "delivered_gmv_brl": "760.27",
+    "freight_brl": "410.31",
+    "gmv_rank": 71,
+    "gmv_share_pct": "0.01",
+    "freight_to_gmv_pct": "53.97"
+  },
+  {
+    "category": "cds_dvds_musicals",
+    "item_rows": 14,
+    "orders": 12,
+    "delivered_gmv_brl": "730.00",
+    "freight_brl": "224.99",
+    "gmv_rank": 72,
+    "gmv_share_pct": "0.01",
+    "freight_to_gmv_pct": "30.82"
+  },
+  {
+    "category": "fashion_childrens_clothes",
+    "item_rows": 7,
+    "orders": 7,
+    "delivered_gmv_brl": "519.95",
+    "freight_brl": "78.72",
+    "gmv_rank": 73,
+    "gmv_share_pct": "0.00",
+    "freight_to_gmv_pct": "15.14"
+  },
+  {
+    "category": "security_and_services",
+    "item_rows": 2,
+    "orders": 2,
+    "delivered_gmv_brl": "283.29",
+    "freight_brl": "41.22",
+    "gmv_rank": 74,
+    "gmv_share_pct": "0.00",
+    "freight_to_gmv_pct": "14.55"
+  }
+]

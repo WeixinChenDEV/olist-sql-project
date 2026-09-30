@@ -1,0 +1,2 @@
+orders,delivered_orders,customers,first_purchase,last_purchase,all_status_item_gmv_brl,delivered_item_gmv_brl,recorded_payments_brl,delivered_avg_order_gmv_brl,delivery_eligible_orders,late_orders,late_pct,avg_delivery_days,median_delivery_days
+99441,96478,96096,2016-09-04 21:15:19,2018-10-17 17:30:18,13591643.70,13221498.11,16008872.12,137.04,96470,6534,6.77,12.56,10.22

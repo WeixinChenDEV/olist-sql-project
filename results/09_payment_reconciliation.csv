@@ -1,0 +1,8 @@
+status,orders_with_items_and_payments,matched_to_cent,difference_gt_1_brl,payment_total_brl,item_plus_freight_brl,net_difference_brl
+delivered,96477,96178,246,15422461.77,15419630.29,2831.48
+shipped,1106,1104,1,177136.23,177129.34,6.89
+canceled,461,459,2,105917.73,105885.72,32.01
+invoiced,312,312,0,68988.76,68988.75,0.01
+processing,301,301,0,69394.11,69394.11,0.00
+unavailable,6,6,0,2140.49,2140.49,0.00
+approved,2,2,0,241.08,241.08,0.00

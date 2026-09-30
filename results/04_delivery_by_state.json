@@ -1,0 +1,218 @@
+[
+  {
+    "customer_state": "AL",
+    "delivered_orders": 396,
+    "eligible_orders": 396,
+    "late_orders": 85,
+    "late_pct": "21.46",
+    "avg_delivery_days": "24.52",
+    "p90_delivery_days": "39.61"
+  },
+  {
+    "customer_state": "MA",
+    "delivered_orders": 713,
+    "eligible_orders": 713,
+    "late_orders": 125,
+    "late_pct": "17.53",
+    "avg_delivery_days": "21.54",
+    "p90_delivery_days": "34.24"
+  },
+  {
+    "customer_state": "SE",
+    "delivered_orders": 332,
+    "eligible_orders": 332,
+    "late_orders": 51,
+    "late_pct": "15.36",
+    "avg_delivery_days": "21.44",
+    "p90_delivery_days": "35.43"
+  },
+  {
+    "customer_state": "PI",
+    "delivered_orders": 475,
+    "eligible_orders": 475,
+    "late_orders": 66,
+    "late_pct": "13.89",
+    "avg_delivery_days": "19.44",
+    "p90_delivery_days": "30.10"
+  },
+  {
+    "customer_state": "CE",
+    "delivered_orders": 1273,
+    "eligible_orders": 1273,
+    "late_orders": 176,
+    "late_pct": "13.83",
+    "avg_delivery_days": "21.24",
+    "p90_delivery_days": "34.66"
+  },
+  {
+    "customer_state": "BA",
+    "delivered_orders": 3253,
+    "eligible_orders": 3253,
+    "late_orders": 396,
+    "late_pct": "12.17",
+    "avg_delivery_days": "19.33",
+    "p90_delivery_days": "31.83"
+  },
+  {
+    "customer_state": "RJ",
+    "delivered_orders": 12310,
+    "eligible_orders": 12310,
+    "late_orders": 1495,
+    "late_pct": "12.14",
+    "avg_delivery_days": "15.30",
+    "p90_delivery_days": "29.08"
+  },
+  {
+    "customer_state": "PA",
+    "delivered_orders": 942,
+    "eligible_orders": 942,
+    "late_orders": 106,
+    "late_pct": "11.25",
+    "avg_delivery_days": "23.76",
+    "p90_delivery_days": "39.33"
+  },
+  {
+    "customer_state": "ES",
+    "delivered_orders": 1992,
+    "eligible_orders": 1992,
+    "late_orders": 214,
+    "late_pct": "10.74",
+    "avg_delivery_days": "15.78",
+    "p90_delivery_days": "25.35"
+  },
+  {
+    "customer_state": "PB",
+    "delivered_orders": 516,
+    "eligible_orders": 516,
+    "late_orders": 54,
+    "late_pct": "10.47",
+    "avg_delivery_days": "20.39",
+    "p90_delivery_days": "34.92"
+  },
+  {
+    "customer_state": "TO",
+    "delivered_orders": 274,
+    "eligible_orders": 274,
+    "late_orders": 27,
+    "late_pct": "9.85",
+    "avg_delivery_days": "17.66",
+    "p90_delivery_days": "27.95"
+  },
+  {
+    "customer_state": "MS",
+    "delivered_orders": 701,
+    "eligible_orders": 701,
+    "late_orders": 68,
+    "late_pct": "9.70",
+    "avg_delivery_days": "15.62",
+    "p90_delivery_days": "24.65"
+  },
+  {
+    "customer_state": "PE",
+    "delivered_orders": 1587,
+    "eligible_orders": 1587,
+    "late_orders": 153,
+    "late_pct": "9.64",
+    "avg_delivery_days": "18.45",
+    "p90_delivery_days": "30.95"
+  },
+  {
+    "customer_state": "RN",
+    "delivered_orders": 470,
+    "eligible_orders": 470,
+    "late_orders": 44,
+    "late_pct": "9.36",
+    "avg_delivery_days": "19.21",
+    "p90_delivery_days": "32.64"
+  },
+  {
+    "customer_state": "SC",
+    "delivered_orders": 3537,
+    "eligible_orders": 3537,
+    "late_orders": 291,
+    "late_pct": "8.23",
+    "avg_delivery_days": "14.95",
+    "p90_delivery_days": "25.76"
+  },
+  {
+    "customer_state": "GO",
+    "delivered_orders": 1950,
+    "eligible_orders": 1950,
+    "late_orders": 128,
+    "late_pct": "6.56",
+    "avg_delivery_days": "15.61",
+    "p90_delivery_days": "24.83"
+  },
+  {
+    "customer_state": "RS",
+    "delivered_orders": 5328,
+    "eligible_orders": 5327,
+    "late_orders": 325,
+    "late_pct": "6.10",
+    "avg_delivery_days": "15.29",
+    "p90_delivery_days": "25.87"
+  },
+  {
+    "customer_state": "MT",
+    "delivered_orders": 885,
+    "eligible_orders": 885,
+    "late_orders": 53,
+    "late_pct": "5.99",
+    "avg_delivery_days": "18.07",
+    "p90_delivery_days": "27.77"
+  },
+  {
+    "customer_state": "DF",
+    "delivered_orders": 2074,
+    "eligible_orders": 2074,
+    "late_orders": 118,
+    "late_pct": "5.69",
+    "avg_delivery_days": "12.94",
+    "p90_delivery_days": "21.57"
+  },
+  {
+    "customer_state": "MG",
+    "delivered_orders": 11319,
+    "eligible_orders": 11319,
+    "late_orders": 519,
+    "late_pct": "4.59",
+    "avg_delivery_days": "11.98",
+    "p90_delivery_days": "20.15"
+  },
+  {
+    "customer_state": "SP",
+    "delivered_orders": 40406,
+    "eligible_orders": 40399,
+    "late_orders": 1817,
+    "late_pct": "4.50",
+    "avg_delivery_days": "8.74",
+    "p90_delivery_days": "15.70"
+  },
+  {
+    "customer_state": "PR",
+    "delivered_orders": 4903,
+    "eligible_orders": 4903,
+    "late_orders": 199,
+    "late_pct": "4.06",
+    "avg_delivery_days": "11.97",
+    "p90_delivery_days": "20.10"
+  },
+  {
+    "customer_state": "RO",
+    "delivered_orders": 243,
+    "eligible_orders": 243,
+    "late_orders": 7,
+    "late_pct": "2.88",
+    "avg_delivery_days": "19.37",
+    "p90_delivery_days": "29.53"
+  },
+  {
+    "customer_state": "AM",
+    "delivered_orders": 145,
+    "eligible_orders": 145,
+    "late_orders": 4,
+    "late_pct": "2.76",
+    "avg_delivery_days": "26.43",
+    "p90_delivery_days": "39.13"
+  }
+]

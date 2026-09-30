@@ -1,0 +1,210 @@
+{
+  "status": "passed",
+  "engine": "PostgreSQL 18.3 (PGlite 0.5.8) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+  "runtime": "PGlite 0.5.8 / Node.js",
+  "generated_at": "2026-09-30T22:05:44.740Z",
+  "analysis_queries": 10,
+  "checks": [
+    {
+      "check_name": "source_hash:olist_customers_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:customers",
+      "passed": true,
+      "expected": 99441,
+      "actual": 99441
+    },
+    {
+      "check_name": "source_hash:olist_geolocation_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "source_hash:olist_order_items_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:order_items",
+      "passed": true,
+      "expected": 112650,
+      "actual": 112650
+    },
+    {
+      "check_name": "source_hash:olist_order_payments_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:order_payments",
+      "passed": true,
+      "expected": 103886,
+      "actual": 103886
+    },
+    {
+      "check_name": "source_hash:olist_order_reviews_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:order_reviews",
+      "passed": true,
+      "expected": 99224,
+      "actual": 99224
+    },
+    {
+      "check_name": "source_hash:olist_orders_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:orders",
+      "passed": true,
+      "expected": 99441,
+      "actual": 99441
+    },
+    {
+      "check_name": "source_hash:olist_products_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:products",
+      "passed": true,
+      "expected": 32951,
+      "actual": 32951
+    },
+    {
+      "check_name": "source_hash:olist_sellers_dataset.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:sellers",
+      "passed": true,
+      "expected": 3095,
+      "actual": 3095
+    },
+    {
+      "check_name": "source_hash:product_category_name_translation.csv",
+      "passed": true
+    },
+    {
+      "check_name": "import_count:product_category_name_translation",
+      "passed": true,
+      "expected": 71,
+      "actual": 71
+    },
+    {
+      "check_name": "analysis_window_is_20_months",
+      "passed": true
+    },
+    {
+      "check_name": "delivery_days_nonnegative",
+      "passed": true
+    },
+    {
+      "check_name": "freight_reconciles",
+      "passed": true
+    },
+    {
+      "check_name": "item_gmv_reconciles",
+      "passed": true
+    },
+    {
+      "check_name": "late_flag_requires_valid_delivered_order",
+      "passed": true
+    },
+    {
+      "check_name": "latest_review_covers_reviewed_orders",
+      "passed": true
+    },
+    {
+      "check_name": "latest_review_unique",
+      "passed": true
+    },
+    {
+      "check_name": "one_fact_row_per_order",
+      "passed": true
+    },
+    {
+      "check_name": "order_grain_preserved",
+      "passed": true
+    },
+    {
+      "check_name": "payment_total_reconciles",
+      "passed": true
+    },
+    {
+      "check_name": "raw_reviews_preserved",
+      "passed": true
+    },
+    {
+      "check_name": "seller_gmv_reconciles",
+      "passed": true
+    },
+    {
+      "check_name": "core_count:customers",
+      "passed": true,
+      "expected": 99441,
+      "actual": 99441
+    },
+    {
+      "check_name": "core_count:order_items",
+      "passed": true,
+      "expected": 112650,
+      "actual": 112650
+    },
+    {
+      "check_name": "core_count:order_payments",
+      "passed": true,
+      "expected": 103886,
+      "actual": 103886
+    },
+    {
+      "check_name": "core_count:order_reviews",
+      "passed": true,
+      "expected": 99224,
+      "actual": 99224
+    },
+    {
+      "check_name": "core_count:orders",
+      "passed": true,
+      "expected": 99441,
+      "actual": 99441
+    },
+    {
+      "check_name": "core_count:products",
+      "passed": true,
+      "expected": 32951,
+      "actual": 32951
+    },
+    {
+      "check_name": "core_count:sellers",
+      "passed": true,
+      "expected": 3095,
+      "actual": 3095
+    },
+    {
+      "check_name": "core_count:categories",
+      "passed": true,
+      "expected": 71,
+      "actual": 71
+    },
+    {
+      "check_name": "cohort_month_zero_100pct",
+      "passed": true
+    },
+    {
+      "check_name": "cohort_counts_within_size",
+      "passed": true
+    },
+    {
+      "check_name": "safe_join_demo_reconciles",
+      "passed": true
+    },
+    {
+      "check_name": "foreign_keys_present",
+      "passed": true
+    },
+    {
+      "check_name": "optimization_results_identical",
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 33.91
+}
