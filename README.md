@@ -2,6 +2,8 @@
 
 A small data analysis project using the public Olist e-commerce dataset. The main focus is SQL: joining tables, checking totals, using window functions, and comparing delivery performance.
 
+以 Olist 公開電商資料進行 SQL 分析，涵蓋銷售、配送時間、顧客評價及回購，重點練習多表關聯、資料核對和視窗函數。
+
 The data contains 99,441 orders from 2016–2018. Most comparisons use January 2017 to August 2018 because the first and last months have very few orders.
 
 ## Questions
